@@ -40,7 +40,8 @@ assetsSummary:
   - BehavioralEvents
   - ProcessingModule
 citation: Rivera, Edward; Shukla, Ashutosh ; Jadhav, Shantanu P.  (2026) Cooperative
-  Behavior in WT and Fmr1 Rat Dyads (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001845/draft
+  Behavior in WT and Fmr1 Rat Dyads (Version 0.260519.2146) [Data set]. DANDI Archive.
+  https://doi.org/10.48324/dandi.001845/0.260519.2146
 contributor:
 - affiliation:
   - identifier: https://ror.org/05abbep66
@@ -91,6 +92,7 @@ contributor:
   - dcite:ProjectLeader
   schemaKey: Person
 dateCreated: '2026-05-14T19:08:33.453421+00:00'
+datePublished: '2026-05-19T21:46:20.351892+00:00'
 description: 'This Dandiset contains behavioral data from wild-type and Fmr1 knockout
   rat dyads performing a novel spatial cooperation task designed to investigate the
   behavioral strategies and social mechanisms underlying cooperative behavior. In
@@ -107,8 +109,9 @@ description: 'This Dandiset contains behavioral data from wild-type and Fmr1 kno
   Fragile-X Syndrome. Journal of Neuroscience, e0143262026. https://doi.org/10.1523/JNEUROSCI.0143-26.2026.
   This work was supported by the SFARI Autism Rat Models Consortium Grant SFA-AN-AR-Rat
   Models-00012700 to S.P.J.'
+doi: 10.48324/dandi.001845/0.260519.2146
 ethicsApproval: []
-id: DANDI:001845/draft
+id: DANDI:001845/0.260519.2146
 identifier: DANDI:001845
 keywords:
 - Cooperative behavior; Social coordination; Social reciprocity; Fragile X syndrome;
@@ -117,8 +120,20 @@ keywords:
 license:
 - spdx:CC0-1.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001845/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001845/0.260519.2146/assets.yaml
 name: Cooperative Behavior in WT and Fmr1 Rat Dyads
+publishedBy:
+  endDate: '2026-05-19T21:46:20.351892+00:00'
+  id: urn:uuid:7dd56909-3f0d-4ae1-88df-f45b34f5744d
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-05-19T21:46:20.351892+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:12adc5bc-f09a-4025-b472-4b5cfecad118
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
@@ -126,6 +141,6 @@ schemaVersion: 0.7.0
 studyTarget:
 - To investigate the behavioral and social mechanisms underlying cooperative behavior
   and how these processes are disrupted in a rat model of Fragile X syndrome.
-url: https://dandiarchive.org/dandiset/001845/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001845/0.260519.2146
+version: 0.260519.2146
 wasGeneratedBy: []
