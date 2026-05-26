@@ -90,6 +90,18 @@ contributor:
   - dcite:Researcher
   - dcite:ProjectLeader
   schemaKey: Person
+- awardNumber: SFA-AN-AR-Rat Models-00012700
+  contactPoint:
+  - email: info@sfari.org
+    schemaKey: ContactPoint
+    url: https://www.sfari.org
+  identifier: https://ror.org/01cmst727
+  includeInCitation: false
+  name: Simons Foundation Autism Research Initiative (SFARI)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.sfari.org
 dateCreated: '2026-05-14T19:08:33.453421+00:00'
 description: 'This Dandiset contains behavioral data from wild-type and Fmr1 knockout
   rat dyads performing a novel spatial cooperation task designed to investigate the
