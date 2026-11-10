@@ -3,7 +3,13 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/DOID_14261
+  name: fragile X syndrome
+  schemaKey: Disorder
+- identifier: https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b13d
+  name: social cognition
+  schemaKey: GenericType
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -39,8 +45,9 @@ assetsSummary:
   - SpatialSeries
   - BehavioralEvents
   - ProcessingModule
-citation: Rivera, Edward; Shukla, Ashutosh ; Jadhav, Shantanu P.  (2026) Cooperative
-  Behavior in WT and Fmr1 Rat Dyads (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001845/draft
+citation: Rivera, Edward; Shukla, Ashutosh ; Jadhav, Shantanu P. ; Bladon, John H.
+  (2026) Cooperative Behavior in WT and Fmr1 Rat Dyads (Version draft) [Data set].
+  DANDI Archive. https://dandiarchive.org/dandiset/001845/draft
 contributor:
 - affiliation:
   - identifier: https://ror.org/05abbep66
@@ -65,6 +72,7 @@ contributor:
     name: 'Brandeis University '
     schemaKey: Affiliation
   email: ashutoshshukla@brandeis.edu
+  identifier: 0000-0002-1939-9010
   includeInCitation: true
   name: 'Shukla, Ashutosh '
   roleName:
@@ -80,6 +88,7 @@ contributor:
     name: 'Brandeis University '
     schemaKey: Affiliation
   email: shantanu@brandeis.edu
+  identifier: 0000-0001-5821-0551
   includeInCitation: true
   name: 'Jadhav, Shantanu P. '
   roleName:
@@ -102,6 +111,16 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
   url: https://www.sfari.org
+- affiliation:
+  - identifier: https://ror.org/05abbep66
+    name: Brandeis University
+    schemaKey: Affiliation
+  identifier: 0000-0001-8993-9898
+  includeInCitation: true
+  name: Bladon, John H.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
 dateCreated: '2026-05-14T19:08:33.453421+00:00'
 description: 'This Dandiset contains behavioral data from wild-type and Fmr1 knockout
   rat dyads performing a novel spatial cooperation task designed to investigate the
@@ -126,12 +145,31 @@ keywords:
 - Cooperative behavior; Social coordination; Social reciprocity; Fragile X syndrome;
   Autism spectrum disorder; Social decision-making; Social cognition; Rat model; Behavioral
   synchrony; Cooperative learning; Leader–follower dynamics; Neurodevelopmental disorders
+- cooperative behavior
+- social coordination
+- social reciprocity
+- Fragile X syndrome
+- Fmr1 knockout
+- autism spectrum disorder
+- social decision-making
+- behavioral synchrony
+- cooperative learning
+- leader-follower dynamics
 license:
 - spdx:CC0-1.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001845/versions/draft/assets/
 name: Cooperative Behavior in WT and Fmr1 Rat Dyads
-relatedResource: []
+relatedResource:
+- identifier: doi:10.1523/jneurosci.0143-26.2026
+  name: A Novel Cooperative Behavior Assay in Rats Reveals Distinct Social Coordination
+    Strategies of Increasing Complexity and Social Reciprocity Deficits in a Model
+    of Fragile X Syndrome
+  relation: dcite:IsDescribedBy
+  repository: Journal of Neuroscience
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/10.1523/jneurosci.0143-26.2026
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
